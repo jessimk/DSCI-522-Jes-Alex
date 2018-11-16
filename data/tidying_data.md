@@ -8,7 +8,7 @@ Loading data into R
 -------------------
 
 ``` r
-lbj_data <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI-522-Jes-Alex/master/data/shot_logs.csv?token=Ao9QkaAwIbc3qxDMJOrW1HW4d-PHRPvSks5b91zOwA%3D%3D")
+lbj_data <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI-522-Jes-Alex/master/data/shot_logs_raw.csv?token=Ao9QkTPZ0S2NSZI8bIRGzjLZHbaycrCbks5b93bjwA%3D%3D")
 ```
 
     ## Parsed with column specification:
