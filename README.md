@@ -13,7 +13,11 @@
 - Raw Data Source: [Kaggle, NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
   
   
-### [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/DSCI-522_Shot-Proposal.ipynb)
+### [Documents](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/docs)
+
+- Milestone 1: [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/DSCI-522_Shot-Proposal.ipynb)
   
   
 ### [Images](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/images)
+
+### [Scripts](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/src)
