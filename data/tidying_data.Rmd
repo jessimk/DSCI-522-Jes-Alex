@@ -1,0 +1,31 @@
+---
+title: "Tidying Data LBJ Data"
+output: github_document
+---
+
+# Setup
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Loading data into R
+
+```{r}
+lbj_data <- read_csv("https://raw.githubusercontent.com/UBC-MDS/DSCI-522-Jes-Alex/master/data/shot_logs.csv?token=Ao9QkaAwIbc3qxDMJOrW1HW4d-PHRPvSks5b91zOwA%3D%3D")
+```
+
+## Filtering raw data for Lebron James's shots and selecting our classifier columns
+
+```{r}
+lbj_data_clean <- lbj_data %>% 
+  filter(player_name == "lebron james") %>% 
+  select(GAME_CLOCK, SHOT_CLOCK, SHOT_NUMBER, SHOT_DIST, SHOT_RESULT, TOUCH_TIME, PERIOD, PTS_TYPE, DRIBBLES)
+
+write.csv(lbj_data_clean, "lbj_shots_tidy.csv")
+
+head(lbj_data_clean)
+```
+
+
