@@ -17,7 +17,6 @@
 
 - Milestone 1: [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/DSCI-522_Shot-Proposal.ipynb)
   
-  
-### [Images](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/images)
+### [Results](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/results)
 
 ### [Scripts](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/src)
