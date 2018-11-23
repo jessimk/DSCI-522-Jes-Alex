@@ -1,0 +1,39 @@
+---
+title: "Decision Tree Analysis"
+output: github_document
+author: Alex Hope, Jes Simkin
+---
+
+```{r setup, include=FALSE}
+library(here)
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+```
+
+## Exploring The Data
+
+Closest Defender: ![alt tag](../images/EDA_CLOSE_DEF_DIST_Lebron_James.png)
+
+Number of Dribbles: ![alt tag](../images/EDA_DRIBBLES_Lebron_James.png)
+
+Period in a Game: ![alt tag](../images/EDA_PERIOD_Lebron_James.png)
+
+Type of Shot (2-point, 3-point): ![alt tag](../images/EDA_PTS_TYPE_Lebron_James.png)
+
+Time on the Shot Clock (seconds): ![alt tag](../images/EDA_SHOT_CLOCK_Lebron_James.png)
+
+Shot Distance (ft): ![alt tag](../images/EDA_SHOT_DIST_Lebron_James.png)
+
+Shot Number: ![alt tag](../images/EDA_SHOT_NUMBER_Lebron_James.png)
+
+Touch Time (seconds): ![alt tag](../images/EDA_TOUCH_TIME_Lebron_James.png)
+
+## Analysis
+
+How our model performs: ![alt tag](../images/MODEL.png)
+
+
+Top Three Features: ![alt tag](../images/FEATURES_PLOT.png)
+
+
+## Observations 
