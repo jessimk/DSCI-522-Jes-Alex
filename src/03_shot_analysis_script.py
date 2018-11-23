@@ -41,7 +41,9 @@ def main():
         player_shot_model.predict(Xtest)
         test_accuracy.append(player_shot_model.score(Xtest,ytest))
     best_test = str(max(test_accuracy))
+    print('The test set accuracy for this player is '+ str(best_test))
     best_depth = depths[np.argmax(test_accuracy)] 
+    print('The best depth for the Decision Tree Classifier is ' + str(best_depth))
     #caption_text = "Here is the plotted training and test accuracy for various depths.We used our best depth of "+str(best_depth)+" which had a testing set accuracy of "+str(best_test)
     test_train_plot = plt.plot(depths,train_accuracy,label='train')+plt.plot(depths,test_accuracy,label='test') #plt.text(0,0,caption_text)
 
@@ -56,6 +58,11 @@ def main():
     plt.clf()
     
 main()
+
+
+
+
+
 
 
 
