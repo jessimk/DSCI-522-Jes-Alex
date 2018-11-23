@@ -2,10 +2,9 @@
 # 02_EDA.py
 # Jes Simkin and Alex Hope Nov, 2018
 #
-# This script loads the raw shot log data, performs data cleaning and wrangling,
-# and outputs a csv file for a specified player into the data folder.
+# This script produces histograms for each decision tree feature.
 #
-# Usage: Rscript 01_loading_wrangling_data.R "lebron james" data/tidy_data_lebron_james.csv
+# Usage: Python 02_EDA.py data/tidy_data_lebron_james.csv "lebron_james"
 
 
 import argparse
@@ -15,7 +14,7 @@ import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument('input_file')
-parser.add_argument('output_file')
+parser.add_argument('player')
 args = parser.parse_args()
 
 def main():
@@ -34,7 +33,7 @@ def main():
         plt.title(feature.title())
         plt.xlabel("Value")
         plt.ylabel("Frequency")
-        plt.savefig(args.output_file)
+        plt.savefig("images/EDA_"+feature+"_"+args.player)
 
 if __name__ == "__main__":
     main()
