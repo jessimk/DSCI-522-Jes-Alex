@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[4]:
 
 
 #Read input file
@@ -22,7 +22,7 @@ def main():
     player_data = pd.read_csv(args.input_file, sep = ' ', header= None)
     
     #Create X and y from player_data
-    X= player_data.drop(['Unnamed: 0', 'SHOT_RESULT'])
+    X= player_data.drop(['Unnamed: 0', 'SHOT_RESULT'], axis=1)
     y=player_data[['SHOT_RESULT']]
     
     #Split Dataset by 80-20
@@ -44,7 +44,6 @@ def main():
     plt.savefig(args.output_file)
     
     importances = player_shot_model.feature_importances_
-
 
     feature_names= pd.DataFrame(list(X))
 
