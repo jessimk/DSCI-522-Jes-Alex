@@ -33,7 +33,7 @@ def main():
         plt.title(feature.title())
         plt.xlabel("Value")
         plt.ylabel("Frequency")
-        plt.savefig("images/EDA_"+feature+"_"+args.player)
+        plt.savefig("results/figs/EDA_"+feature+"_"+args.player)
 
 if __name__ == "__main__":
     main()
