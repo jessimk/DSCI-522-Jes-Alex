@@ -64,7 +64,6 @@ We were surprised by the limitations of our features in predicting whether Lebro
 
 It appears that there might be other features to consider, or that there's more to the beautiful game of basketball than can't be encoded.
 
-\[Insert what might consider doing differently here\]
 
 References
 ----------
