@@ -38,9 +38,27 @@ def main():
         train_accuracy.append(player_shot_model.score(Xtrain,ytrain))
         shot_model.predict(Xtest)
         test_accuracy.append(shot_model.score(Xtest,ytest))
-        
+    
+    best_depth = depths[np.argmax(test_accuracy)] 
     test_train_plot = plt.plot(depths,train_accuracy,label='train')+plt.plot(depths,test_accuracy,label='test')
     plt.savefig(args.output_file)
+    
+    importances = player_shot_model.feature_importances_
+
+
+    feature_names= pd.DataFrame(list(X))
+
+    plt.bar(range(len(X.columns.values)), player_shot_model.feature_importances_)
+    plt.xticks(range(len(X.columns.values)),X.columns.values, rotation= 90)
+    best_model = DecisionTreeClassifier(max_depth = best_depth)
+    tree_graph = tree.export_graphviz(best_model, out_file=None, 
+                             feature_names=feature_cols,  
+                             class_names=class_names,  
+                             filled=True, rounded=True,  
+                             special_characters=True, **kwargs)
+    graph=graphviz.Source(tree_graph)
+    graph.render(save_file_prefix)
+    return graph
 
 if __name__ == "__main__":
     main()
