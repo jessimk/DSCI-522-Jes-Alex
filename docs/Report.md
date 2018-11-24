@@ -4,6 +4,8 @@ Report
 A Classification Decision Tree for Lebron James's Shots
 =======================================================
 
+A project for UBC DSCI 522
+
 Authors: Alex Hope, Jes Simkin Nov, 2018
 
 Question
@@ -73,6 +75,4 @@ References
 
 -   Lebron James Shot Log from the 2014-2015 NBA Season. Raw Data Source: [Kaggle, NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
 -   Data Analysis Pipeline Example by Tiffany Timbers for UBC DSCI 522 (2018) [Github Repo](https://github.com/ttimbers/data_analysis_pipeline_eg/tree/v1.1)
--   Feature Importance by Chris Albon
-    *l**i**n**k*
-     (<https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/>)
+-   Feature Importance by Chris Albon \[link\] (<https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/>)
