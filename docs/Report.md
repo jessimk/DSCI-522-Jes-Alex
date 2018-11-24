@@ -64,15 +64,15 @@ Observations
 
 Our best tree depth was a depth of 7 with a test set accuracy of 60% for predicting whether Lebron James makes or misses a shot.
 
-We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not.
+We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not. At 60% accuracy for prediction, that's slightly more than a coin toss.
 
 It appears that there might be other features to consider, or that there's more to the game of basketball than can be encoded.
 
-\[...Insert what we might also consider doing differently here...\]
+If we had more time, we might consider trying cross validation to pick a best depth for our decision tree. We might also consider testing out other players to see how our model lines up with other players. Can we get a better prediction rate with other players? Perhaps with players with a worse shooting percentage or players with a comparable shooting percentage?
 
 References
 ----------
 
 -   Lebron James Shot Log from the 2014-2015 NBA Season. Raw Data Source: [Kaggle, NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
 -   Data Analysis Pipeline Example by Tiffany Timbers for UBC DSCI 522 (2018) [Github Repo](https://github.com/ttimbers/data_analysis_pipeline_eg/tree/v1.1)
--   Feature Importance by Chris Albon \[link\] (<https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/>)
+-   Feature Importance by Chris Albon [Blog Link](https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/)
