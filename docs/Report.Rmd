@@ -78,6 +78,7 @@ It also appears that there might be other features to consider, or that there's 
 
 If we had more time, we might consider trying cross validation to pick a best depth for our decision tree. We might also consider testing out other players to see how our model lines up with other players. Can we get a better prediction rate with other players? Perhaps with players with a worse shooting percentage or players with a comparable shooting percentage?
 
+There are lots of questions to explore in the future with this work.
 
 ## References
 
