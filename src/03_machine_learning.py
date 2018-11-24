@@ -7,8 +7,7 @@
 #   one for later creating train set/test set depth and accuracy plotting, and
 #   another for plotting feature importances.
 #
-# Usage: Python 03_Machine_Learning.py data/accuracies_lebron_james.csv data/features_lebron_james.csv
-
+# Usage: Python src/03_machine_learning.py data/tidy_data_lebron_james.csv data/accuracies_lebron_james.csv data/features_lebron_james.csv
 
 import argparse
 import pandas as pd
