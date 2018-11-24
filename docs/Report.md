@@ -44,6 +44,9 @@ Analysis
 
 ![alt tag](../results/figs/best_features.png)
 
+<br>
+<br>
+
 ![alt tag](https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif).
 
 [GIF Source](https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif)
