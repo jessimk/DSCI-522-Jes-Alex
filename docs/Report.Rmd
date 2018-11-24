@@ -35,29 +35,37 @@ We have chosen to work with 8 features. To get a sense of the features and build
 
 Here are a few features with distributions that might suggest they may be important in our model later on.
 
-### Closest Defender (ft): ![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png)
+### Closest Defender (ft): 
+<br>
+![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png)
 
-### Number of Dribbles: ![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
+### Number of Dribbles: 
+<br>
+![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
 
-### Time on the Shot Clock (seconds): ![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
+### Time on the Shot Clock (seconds): 
+<br>
+![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
 
-### Shot Distance (ft): ![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
+### Shot Distance (ft): 
+<br>
+![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
 
 
 ##Analysis
 
 
 ### How our model performs:
-
+<br>
 ![alt tag](../results/figs/train-test-acc_lebron james.png)
 
 ### Top Three Features:
-
+<br>
 ![alt tag](../results/figs/best_features_lebron james.png)
 
-<center>
-<img src="https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif">
-</center>
+<img src="https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif">  
+
+<a href="https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif">GIF Source</a>
 
 ## Observations
 
