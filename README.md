@@ -36,8 +36,9 @@
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
 
 
-</br>
-</br>
+
+
+...
 
 ![alt tag](https://media.giphy.com/media/l3q2y2764DUQIKNRm/giphy.gif) 
 
