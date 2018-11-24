@@ -28,17 +28,10 @@ Closest Defender (ft): ![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_jame
 
 Number of Dribbles: ![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
 
-Period in a Game: ![alt tag](../results/figs/EDA_PERIOD_lebron_james.png)
-
-Type of Shot (2-point, 3-point): ![alt tag](../results/figs/EDA_PTS_TYPE_lebron_james.png)
-
 Time on the Shot Clock (seconds): ![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
 
 Shot Distance (ft): ![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
 
-Shot Number: ![alt tag](../results/figs/EDA_SHOT_NUMBER_lebron_james.png)
-
-Touch Time (seconds): ![alt tag](../results/figs/EDA_TOUCH_TIME_lebron_james.png)
 
 Analysis
 --------
