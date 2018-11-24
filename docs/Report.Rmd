@@ -36,19 +36,19 @@ We have chosen to work with 8 features. To get a sense of the features and build
 
 Here are a few features with distributions that might suggest they may be important in our model later on.
 
-### Closest Defender (ft): 
+### Figure 1. Closest Defender (ft): 
 <br>
 ![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png)
 
-### Number of Dribbles: 
+### Figure 2. Number of Dribbles: 
 <br>
 ![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
 
-### Time on the Shot Clock (seconds): 
+### Figure 3. Time on the Shot Clock (seconds): 
 <br>
 ![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
 
-### Shot Distance (ft): 
+### Figure 4. Shot Distance (ft): 
 <br>
 ![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
 
@@ -56,11 +56,11 @@ Here are a few features with distributions that might suggest they may be import
 ##Analysis
 
 
-### How our model performs:
+###  Figure 5. How our model performs:
 <br>
 ![alt tag](../results/figs/train-test-acc_lebron james.png)
 
-### Top Three Features:
+###  Figure 6. Top Three Features:
 <br>
 ![alt tag](../results/figs/best_features_lebron james.png)
 
