@@ -64,9 +64,9 @@ Observations
 
 Our best tree depth was a depth of 7 with a test set accuracy of 60% for predicting whether Lebron James makes or misses a shot.
 
-We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not. At 60% accuracy for prediction, that's slightly more than a coin toss.
+We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not. At 60% accuracy for prediction, that's slightly more than a coin toss. One point we hadn't clearly thought about is that Lebron seems to be a strong shooter even when changes in these variables of interest happen. Therefore, he is harder to predict because the reasons he misses aren't as cleanly captured. However, if another shooter was chosen who is not a perimeter or long distance shooter, and really only scores in and around the hoop, we may find some of these features to be more predictive.
 
-It appears that there might be other features to consider, or that there's more to the game of basketball than can be encoded.
+It also appears that there might be other features to consider, or that there's more to the game of basketball than can be quantified, at least in this dataset. It also begs the question of how we can develop new ways to measure the game that haven't been considered like fan noise, points the team is up or down when the shot was taken, etc.
 
 If we had more time, we might consider trying cross validation to pick a best depth for our decision tree. We might also consider testing out other players to see how our model lines up with other players. Can we get a better prediction rate with other players? Perhaps with players with a worse shooting percentage or players with a comparable shooting percentage?
 
