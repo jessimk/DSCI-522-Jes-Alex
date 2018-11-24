@@ -24,49 +24,46 @@ Exploring The Data
 
 We have chosen to work with 8 features. To get a sense of the features and build our intuition around which might end up being top predictors, we explored the distribution of each feature, grouped by shot result (made or missed).
 
-Closest Defender (ft): ![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png)
+Here are a few features with distributions that might suggest they may be important in our model later on.
 
-Number of Dribbles: ![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
+### Closest Defender (ft): ![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png)
 
-Time on the Shot Clock (seconds): ![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
+### Number of Dribbles: ![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
 
-Shot Distance (ft): ![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
+### Time on the Shot Clock (seconds): ![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
 
+### Shot Distance (ft): ![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
 
 Analysis
 --------
 
 ### How our model performs:
 
-![alt tag](../results/figs/train-test-acc.png)
+![alt tag](../results/figs/train-test-acc_lebron%20james.png)
 
 ### Top Three Features:
 
-![alt tag](../results/figs/best_features.png)
+![alt tag](../results/figs/best_features_lebron%20james.png)
 
-<br>
-<br>
-<br>
-<br>
-
-![alt tag](https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif).
-
-[GIF Source](https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif)
-
+<center>
+<img src="https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif">
+</center>
 Observations
 ------------
 
-Our best depth was 11 with a test set accuracy of 60% for predicting whether Lebron James makes or misses a shot.
+Our best tree depth was a depth of 7 with a test set accuracy of 60% for predicting whether Lebron James makes or misses a shot.
 
 We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not.
 
-It appears that there might be other features to consider, or that there's more to the beautiful game of basketball than can't be encoded.
+It appears that there might be other features to consider, or that there's more to the game of basketball than can be encoded.
 
-\[Insert what might consider doing differently here\]
+\[...Insert what we might also consider doing differently here...\]
 
 References
 ----------
 
 -   Lebron James Shot Log from the 2014-2015 NBA Season. Raw Data Source: [Kaggle, NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
 -   Data Analysis Pipeline Example by Tiffany Timbers for UBC DSCI 522 (2018) [Github Repo](https://github.com/ttimbers/data_analysis_pipeline_eg/tree/v1.1)
--   Feature Importance by Chris Albon \[link\] (<https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/>)
+-   Feature Importance by Chris Albon
+    *l**i**n**k*
+     (<https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/>)
