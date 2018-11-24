@@ -34,7 +34,7 @@ def main():
     #Split Dataset by 80-20
     Xtrain,Xtest,ytrain,ytest = train_test_split(X,y,test_size=0.2)
 
-    #Try out different k values and plot
+    #Try out different k values
     depths= range(1,40)
     train_accuracy=[]
     test_accuracy=[]
