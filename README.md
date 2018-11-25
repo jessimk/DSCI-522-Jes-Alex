@@ -41,6 +41,7 @@
 	- Delivers 2 output files (1 dataframe for train and test plot in script 4, 1 dataframe for feature importance in script 4)
 
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
+	
 	-Takes 2 input files (1 dataframe for train-test plot, 1 dataframe for feature importance)
 	-Delivers 2 output files stored in results/figs under accuracy and features (.png)
 
