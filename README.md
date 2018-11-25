@@ -34,7 +34,7 @@
 
 - `02_EDA.py`, [creates exploratory data analysis plots](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/02_EDA.py)
 	
-	- Takes 1 input file (wrangled data for specific player)
+		- Takes 1 input file (wrangled data for specific player)
 	- Delivers 9 output files as EDA figures (.png)
 
 - `03_machine_learning.py`, [performs machine learning](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/03_machine_learning.py)
