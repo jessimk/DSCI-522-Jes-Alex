@@ -29,14 +29,16 @@
 
 - `01_loading_wrangling.R`, [loads and wrangles data](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/01_loading_wrangling.R)
 
-	- Takes no input files (reads raw data)
+	- Takes 1 input file (reads raw data in data)
 	- Delivers 1 output file
 
 - `02_EDA.py`, [creates exploratory data analysis plots](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/02_EDA.py)
+	
 	- Takes 1 input file (wrangled data for specific player)
 	- Delivers 9 output files as EDA figures (.png)
 
 - `03_machine_learning.py`, [performs machine learning](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/03_machine_learning.py)
+	
 	-Takes 1 input file (wrangled player_data)
 	- Delivers 2 output files (1 dataframe for train and test plot in script 4, 1 dataframe for feature importance in script 4)
 
