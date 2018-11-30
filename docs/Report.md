@@ -38,12 +38,9 @@ that are numerical. To get a sense of the features and build our
 intuition around which are our top predictors, we explored the
 distribution of each feature grouped by shot result (made or missed).
 
-Here are a few of the features we included in our analyses and their
-related histograms for their distributions.
+The features we considered when attempting to predict the success and failure of Lebron's shots were: shot distance, shot clock, touch time, closest defender distance, shot number, dribbles, period (quarter), points type (2 or 3 point shot). In the interest of keeping this report succint, we have provided histograms for a few of the features we included in our analyses.
 
 ### Figure 1. Closest Defender (ft):
-
-<br>
 
 <img src="../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png" width="640" />
 
@@ -53,7 +50,6 @@ of the values fall between 0 and 5.
 
 ### Figure 2. Number of Dribbles:
 
-<br>
 
 <img src="../results/figs/EDA_DRIBBLES_lebron_james.png" width="640" />
 
@@ -64,7 +60,6 @@ there is a significant dispersion, it doesn’t seem to vary much by group
 
 ### Figure 3. Time on the Shot Clock (seconds):
 
-<br>
 
 <img src="../results/figs/EDA_SHOT_CLOCK_lebron_james.png" width="640" />
 
@@ -79,7 +74,6 @@ high.
 
 ### Figure 4. Shot Distance (ft):
 
-<br>
 
 <img src="../results/figs/EDA_SHOT_DIST_lebron_james.png" width="640" />
 
@@ -92,14 +86,21 @@ Analysis
 
 ### Figure 5. How our model performs:
 
-<br>
 <img src="../results/figs/train-test-acc_lebron_james.png" width="640" />
 
-### Figure 6. Top Three Features:
+Figure 5: Here we see a contrast between both our training and testing performance for Lebron's data. We have chosen a depth of 6 in that our peak testing performance was at this depth, and while the training accuracy is still climbing rapidly it is early enough to suggest the model hasn't been overfitted.
+
+### Figure 6. Feature Ranking:
+
+
+<img src="../results/figs/best_features_lebron_james.png" width="640" />
 
 <br>
 
-<img src="../results/figs/best_features_lebron_james.png" width="640" />
+Figure 6: Here we have ranked our features in order of importance, meaning the relative amount they contributed to the overall performance of the model. This is to say, all of the features will add up to 1 when added, however, their contribution to the 59% score will differ. As you can see the most prominent features for our decision tree were shot distance, shot clock and touch time.
+
+
+<br>
 
 <img src="https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif">
 
@@ -110,7 +111,7 @@ Observations
 ------------
 
 Our best tree depth was a depth of 6 with a test set accuracy of 59% for
-predicting whether Lebron James makes or misses a shot.
+predicting whether Lebron James makes or misses a shot. To address our question, the three most powerful predictors in classifying the target of interest (make or miss) were shot distance (shot_dist), shot clock (shot_clock) and touch time (touch_time). These made the largest overall contribution to the classification of targets in our testing set.
 
 We were surprised by the limitations of our features in predicting
 whether Lebron makes a shot or not. At accuracy for prediction, that’s
