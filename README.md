@@ -8,9 +8,9 @@
 
 ### Dependencies
 
--R: Tidyverse
+-**R**: Tidyverse
 
--Python: argparse, pandas, matplotlib.pyplot, numpy, sklearn.tree, sklearn.model_selection
+-**Python**: argparse, pandas, matplotlib.pyplot, numpy, sklearn.tree, sklearn.model_selection
 
 ### [Data](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/data)
 
