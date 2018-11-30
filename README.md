@@ -31,6 +31,7 @@
 - `01_loading_wrangling.R`, [loads and wrangles data](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/01_loading_wrangling.R)
 
 	- Takes 1 input file (reads raw data in data)
+	- Allows you to select any player from dataset in argument, and will wrangle data for specific player prior to EDA.
 	- Delivers 1 output file
 
 - `02_EDA.py`, [creates exploratory data analysis plots](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/02_EDA.py)
