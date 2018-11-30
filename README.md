@@ -6,6 +6,11 @@
 - Alex Hope [@ehhope](https://github.com/ehhope)  
 - Jes Simkin [@jessimk](https://github.com/jessimk) 
 
+### Dependencies
+
+-R: Tidyverse
+-Python: argparse, pandas, matplotlib.pyplot, numpy, sklearn.tree, sklearn.model_selection
+
 ### [Data](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/data)
 
 - Lebron James Shot Log from the 2014-2015 NBA Season, raw data source: [Kaggle, NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
