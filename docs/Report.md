@@ -24,9 +24,9 @@ Our question for this analysis is:
 Exploring The Data
 ------------------
 
-We have chosen to work with 8 features. To get a sense of the features and build our intuition around which might end up being top predictors, we explored the distribution of each feature, grouped by shot result (made or missed).
+We have chosen 8 features in our dataset related to aspects of shooting that are numerical. To get a sense of the features and build our intuition around which are our top predictors, we explored the distribution of each feature grouped by shot result (made or missed).
 
-Here are a few features with distributions that might suggest they may be important in our model later on.
+Here are a few of the features we included in our analyses and their related histograms for their distributions.
 
 ### Figure 1. Closest Defender (ft):
 
@@ -62,15 +62,15 @@ Analysis
 Observations
 ------------
 
-Our best tree depth was a depth of 7 with a test set accuracy of 60% for predicting whether Lebron James makes or misses a shot.
+Our best tree depth was a depth of 6 with a test set accuracy of 59% for predicting whether Lebron James makes or misses a shot.
 
-We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not. At 60% accuracy for prediction, that's slightly more than a coin toss. One point we hadn't clearly thought about is that Lebron seems to be a strong shooter even when changes in these variables of interest happen. Therefore, he is harder to predict because the reasons he misses aren't as cleanly captured. However, if another shooter was chosen who is not a perimeter or long distance shooter, and really only scores in and around the hoop, we may find some of these features to be more predictive.
+We were surprised by the limitations of our features in predicting whether Lebron makes a shot or not. At  accuracy for prediction, that's slightly more than a coin toss. One point we hadn't clearly thought about is that Lebron seems to be a strong shooter even when changes in these variables of interest happen. For instance, he is known for being an excellent long distance shooter and for making shots even when the defender is close by. Therefore, his targets are harder to predict because the reasons he misses aren't as cleanly captured given the features we have outlined here. We suspect that if another shooter was chosen who is not a perimeter shooter, and really only scores in and around the hoop, we may find some of these features to be more predictive of the target variable.
 
-It also appears that there might be other features to consider, or that there's more to the game of basketball than can be quantified, at least in this dataset. It also begs the question of how we can develop new ways to measure the game that haven't been considered like fan noise, points the team is up or down when the shot was taken, etc.
+There may be other features that aren't captured in this dataset or have yet to be developed that help distinguish Lebron's makes and misses. While our analysis was limited in it's predictive power, this process has helped encourage us to think about feature development in new ways to measure the game that haven't been considered like fan noise, points the team is up or down when the shot was taken, and player stamina.
 
-If we had more time, we might consider trying cross validation to pick a best depth for our decision tree. We might also consider testing out other players to see how our model lines up with other players. Can we get a better prediction rate with other players? Perhaps with players with a worse shooting percentage or players with a comparable shooting percentage?
+If we had more time, we could consider testing out other players to see whether our decision tree is able to differentiate targets more clearly. Can we get a better prediction rate with other players? Perhaps with players with a worse shooting percentage whose misses predictably occur through one of the features we have discussed?
 
-There are lots of questions to explore in the future with this work.
+There are lots of questions to explore in the future with this work, and we have learned a great deal from this process about the challenges of prediction, and the strengths/weaknesses of decision trees.
 
 References
 ----------

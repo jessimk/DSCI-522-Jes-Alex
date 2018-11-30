@@ -17,6 +17,7 @@
 - Proposal: [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Proposal.ipynb)
 
 - Milestone1: 
+	- [Release 2.0](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/releases)
 	- [Draft Report (md)](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Report.md)
 	- [Draft Report (Rmd)](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Report.Rmd)
 
