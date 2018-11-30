@@ -57,11 +57,11 @@ Analysis
 
 ### Figure 5. How our model performs:
 
-<br> ![alt tag](../results/figs/train-test-acc_lebron%20james.png)
+<br> ![alt tag](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/results/figs/train-test-acc_lebron_james.png)
 
 ### Figure 6. Top Three Features:
 
-<br> ![alt tag](../results/figs/best_features_lebron%20james.png)
+<br> ![alt tag](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/results/figs/best_features_lebron_james.png)
 
 <img src="https://media.giphy.com/media/lKafiHISf6FEtciruw/giphy.gif">
 
