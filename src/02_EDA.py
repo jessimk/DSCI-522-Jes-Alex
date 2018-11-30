@@ -4,7 +4,7 @@
 #
 # This script produces histograms for each decision tree feature.
 #
-# Usage: Python src/02_EDA.py data/tidy_data_lebron_james.csv "lebron_james"
+# Usage: Python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron_james"
 
 
 import argparse
@@ -14,6 +14,7 @@ import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument('input_file')
+parser.add_argument('output_file')
 parser.add_argument('player')
 args = parser.parse_args()
 
@@ -24,7 +25,6 @@ def main():
     #add an under score for file slug
     name_underscored= args.player.replace(" ", "_")
 
-
     #create histogram for each feature and save png
     for feature in features:
 
@@ -33,11 +33,10 @@ def main():
 
         fig, share = plt.subplots()
 
-        plt.hist([missed, made], color=['red', 'blue'], label=['Missed','Made'], bins = 15)
+        plt.hist([missed, made], color=['darkorange', 'royalblue'], label=['Missed','Made'], bins = 15)
         plt.legend(title= "Shot Result")
-        plt.title(feature.title())
         plt.xlabel("Value")
         plt.ylabel("Frequency")
-        plt.savefig("results/figs/EDA_"+feature+"_"+name_underscored)
+        plt.savefig(args.output_file+"_"+feature+"_"+name_underscored)
 
 main()
