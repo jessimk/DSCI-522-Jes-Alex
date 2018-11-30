@@ -31,7 +31,7 @@ main <- function(){
              TOUCH_TIME, PERIOD, PTS_TYPE, DRIBBLES, CLOSE_DEF_DIST)
 
 
-  write.csv(tidy_data, output)
+  write.csv(tidy_data, file = output)
 }
 
 # call main function
