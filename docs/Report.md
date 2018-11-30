@@ -32,17 +32,25 @@ Here are a few of the features we included in our analyses and their related his
 
 <br> ![alt tag](../results/figs/EDA_CLOSE_DEF_DIST_lebron_james.png)
 
+Figure 1: There appears to be little discrepancy within the distribution of `Closest Defender Distance` based on made or missed and the majority of the values fall between 0 and 5.
+
 ### Figure 2. Number of Dribbles:
 
 <br> ![alt tag](../results/figs/EDA_DRIBBLES_lebron_james.png)
+
+Figure 2: There also seems to be very little to distinguish between the distributions for made and missed based on the number of dribbles. While there is a significant dispersion, it doesn't seem to vary much by group (made or missed).
 
 ### Figure 3. Time on the Shot Clock (seconds):
 
 <br> ![alt tag](../results/figs/EDA_SHOT_CLOCK_lebron_james.png)
 
+Figure 3: Interestingly, the extremes of this histogram suggest a fairly significant group difference in whether a shot was made or missed. In the context of basketball, typically when the shot clock is low, players are more often rushing their shots or taking their shots in situations that aren't ideal and would lead to greater likelihood of a miss, which is what this histogram seems to display. However, the opposite is true for when lots of time exists on the shotclock where made is extremely high.
+
 ### Figure 4. Shot Distance (ft):
 
 <br> ![alt tag](../results/figs/EDA_SHOT_DIST_lebron_james.png)
+
+Figure 4: Shot Distance also seems to hold a significant variation at the extremes where shots that have a shorter distance are more often made than missed, and shots from a far distance more often miss. 
 
 Analysis
 --------
