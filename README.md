@@ -14,7 +14,7 @@
   
 ### [Documents](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/docs)
 
-- Proposal: [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/DSCI-522_Shot-Proposal.ipynb)
+- Proposal: [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Proposal.ipynb)
 
 - Milestone1: 
 	- [Release 2.0](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/releases)
