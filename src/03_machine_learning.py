@@ -4,10 +4,11 @@
 # Alex Hope and Jes Simkin Nov, 2018
 #
 # This script takes a csv, runs decision tree analysis and outputs two csvs:
-#   one for later creating train set/test set depth and accuracy plotting, and
+#   one for later creating model depth and accuracy plotting, and
 #   another for plotting feature importances.
 #
-# Usage: Python src/03_machine_learning.py data/tidy_data_lebron_james.csv data/accuracies_lebron_james.csv data/features_lebron_james.csv
+# Usage: Python src/03_machine_learning.py data/tidy_data_lebron_james.csv
+##   data/accuracies_lebron_james.csv data/features_lebron_james.csv
 
 import argparse
 import pandas as pd
@@ -32,14 +33,14 @@ def main():
     y=player_data[['SHOT_RESULT']]
 
     #Split Dataset by 80-20
-    Xtrain,Xtest,ytrain,ytest = train_test_split(X,y,test_size=0.2)
+    Xtrain,Xtest,ytrain,ytest = train_test_split(X,y,test_size=0.2, random_state=231)
 
     #Try out different k values
     depths= range(1,40)
     train_accuracy=[]
     test_accuracy=[]
     for i in depths:
-        player_shot_model= tree.DecisionTreeClassifier(max_depth=i)
+        player_shot_model= tree.DecisionTreeClassifier(max_depth=i, random_state=231, class_weight="balanced")
         player_shot_model.fit(Xtrain,ytrain)
         train_accuracy.append(player_shot_model.score(Xtrain,ytrain))
         player_shot_model.predict(Xtest)
