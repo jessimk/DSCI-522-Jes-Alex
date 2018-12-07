@@ -1,33 +1,65 @@
 # A Classification Decision Tree for Lebron James's Shots 
    
    
-### Authors: 
+### Authors 
 
 - Alex Hope [@ehhope](https://github.com/ehhope)  
 - Jes Simkin [@jessimk](https://github.com/jessimk) 
 
+### Goal
+
+- Create a decision tree model for Lebron James's shots. Use our model to find the three strongest predictors for determining whether Lebron makes or misses a shot.
+
 ### Dependencies
 
-- **R**: Tidyverse
+- **R**: 
+	- `tidyverse  v1.2.1`
 
-- **Python**: argparse, pandas, matplotlib.pyplot, numpy, sklearn.tree, sklearn.model_selection
+- **Python**: 
+	- `argparse v1.1`
+	- `pandas v0.20.3`
+	- `matplotlib v3.0.1`
+	- `numpy v1.15.4`
+	- `scikit-learn v0.20.1`
+
+### Usage
+1. Clone this repo.
+2. Run these commands:
+
+`Rscript src/01_loading_wrangling.R "lebron james"	data/shot_logs_raw.csv data/tidy_data_lebron_james.csv`
+`python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron james"`
+`python src/03_machine_learning.py data/tidy_data_lebron_james.csv data/accuracies_lebron_james.csv data/features_lebron_james.csv`
+`python src/04_analysis_plots_script.py data/accuracies_lebron_james.csv data/features_lebron_james.csv results/figs/train-test-acc_lebron_james.png results/figs/best_features_lebron_james.png`
+`Rscript -e "rmarkdown::render('docs/Report.Rmd')"`
+
+OR
+
+Use Make and run: 
+
+`make all`
+  
+  
+_✨Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. ✨_
+
+  
+<center>🏀 🏀 🏀</center>
+
+
+### What you'll find in this repo:
 
 ### [Data](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/data)
 
-- Lebron James Shot Log from the 2014-2015 NBA Season, raw data source: [Kaggle, NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
+- 2014-2015 NBA Season Shot Log from [Kaggle; NBA Shot Logs Dataset](https://www.kaggle.com/dansbecker/nba-shot-logs/home)
 
 - Other CSV's created with our scripts
   
 ### [Documents](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/docs)
 
-- Proposal: [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Proposal.ipynb)
+- [Proposal](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Proposal.ipynb)
 
-- Milestone1: 
-	- [Release 2.0](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/releases)
-	- [Draft Report (md)](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Report.md)
-	- [Draft Report (Rmd)](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Report.Rmd)
+- [Report](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/docs/Report.md)
 
-  
+
 ### [Results](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/tree/master/results/figs)
 
 - Figures from our Analysis
@@ -36,24 +68,19 @@
 
 - `01_loading_wrangling.R`, [loads and wrangles data](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/01_loading_wrangling.R)
 
-	- Takes 1 input file (reads raw data in data)
-	- Allows you to select any player from dataset in argument, and will wrangle data for specific player prior to EDA.
-	- Delivers 1 output file
-
 - `02_EDA.py`, [creates exploratory data analysis plots](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/02_EDA.py)
 	
-	 - Takes 1 input file (wrangled data for specific player)
-	 - Delivers 9 output files as EDA figures (.png)
-
 - `03_machine_learning.py`, [performs machine learning](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/03_machine_learning.py)
-	
-	- Takes 1 input file (wrangled player_data)
-	- Delivers 2 output files (1 dataframe for train and test plot in script 4, 1 dataframe for feature importance in script 4)
 
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
 	
-	- Takes 2 input files (1 dataframe for train-test plot, 1 dataframe for feature importance)
-	- Delivers 2 output files stored in results/figs under accuracy and features (.png)
 
 
+<center> 👑   
 
+
+![](https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy-downsized.gif)
+
+[Gif Source](https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy.gif)
+
+</center>
