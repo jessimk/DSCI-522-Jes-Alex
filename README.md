@@ -42,7 +42,7 @@ Use Make and run:
 _✨Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. ✨_
 
   
-<center>🏀 🏀 🏀</center>
+<p align="center"> 🏀 🏀 🏀</p>
 
 
 ### What you'll find in this repo:
@@ -75,12 +75,8 @@ _✨Note: We plan to update our scripts so that they are flexible and robust eno
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
 	
 
+</br>
+<p align="center">   
+<a href="https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy.gif"><img width="200" height="200" src="https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy-downsized.gif"></a>
 
-<center> 👑   
-
-
-![](https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy-downsized.gif)
-
-[Gif Source](https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy.gif)
-
-</center>
+</p>
