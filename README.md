@@ -63,7 +63,7 @@ Use Make and the <a href="https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/mast
 
 
 </br>
-_✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. Stay Tuned.✨_
+__✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. Stay Tuned.✨__
 </br>
   
 <p align="center"> 🏀 🏀 🏀</p>
