@@ -5,8 +5,11 @@
 # This script produces a plot showing best decision tree depth and a plot
 #   showing feature importances. It takes two csvs from sript 3, and produces
 #   two plots.
-#
-# Usage:
+
+# Usage
+# Inputs: path of csv for model accuracies, path of csv for model feature importances
+# Outputs: png plot of model accuracies, png plot of feature importances
+# Example:
 #Python src/04_analysis_plots_script.py data/accuracies_lebron_james.csv data/features_lebron_james.csv results/figs/train-test-acc_lebron_james.png results/figs/best_features_lebron_james.png
 
 import argparse
