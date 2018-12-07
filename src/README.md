@@ -23,4 +23,6 @@
 
 ### Dependency Graph
 
+######_Click and zoom_ 🔎
+
 <img src="https://github.com/jessimk/DSCI-522-Jes-Alex/blob/master/src/dependencies_graph.png?raw=true">
