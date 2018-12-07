@@ -64,7 +64,6 @@ there is a significant dispersion, it doesn’t seem to vary much by group
 
 ### Figure 3. Time on the Shot Clock (seconds):
 
-
 <img src="../results/figs/EDA_SHOT_CLOCK_lebron_james.png" width="640" />
 
 Figure 3: Interestingly, the extremes of this histogram suggest a fairly
@@ -139,13 +138,11 @@ the team is up or down when the shot was taken, and player stamina.
 
 If we had more time, we could consider testing out other players to see
 whether our decision tree is able to differentiate targets more clearly.
-Can we get a better prediction rate with other players? Perhaps with
-players with a worse shooting percentage whose misses predictably occur
-through one of the features we have discussed?
+Can we get a better prediction rate with other players? To address this question, all that is required is going into the make file and changing the player name between quotation marks (ex. "lebron james"), and the script will filter based on the player you specified. This makes it slightly easier to examine other players to make comparisons and serves a broader purpose for others who may be interested in using these scripts. Perhaps with players with a worse shooting percentage whose misses predictably occur through one of the features we have discussed?
 
 There are lots of questions to explore in the future with this work, and
 we have learned a great deal from this process about the challenges of
-prediction, and the strengths/weaknesses of decision trees.
+prediction, and the strengths/weaknesses of decision trees. 
 
 References
 ----------
