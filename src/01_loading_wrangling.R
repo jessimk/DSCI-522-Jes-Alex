@@ -4,8 +4,11 @@
 #
 # This script loads the raw shot log data, performs data cleaning and wrangling,
 # and outputs a csv file for a specified player into the data folder.
-#
-# Usage: Rscript src/01_loading_wrangling.R "lebron james" data/shot_logs_raw.csv data/tidy_data_lebron_james.csv
+
+# Usage
+# Inputs: player name string, raw csv path, tidy csv path
+# Outputs: tidy csv at given path
+# Example: Rscript src/01_loading_wrangling.R "lebron james" data/shot_logs_raw.csv data/tidy_data_lebron_james.csv
 
 library(tidyverse)
 
@@ -32,6 +35,8 @@ main <- function(){
 
 
   write.csv(tidy_data, file = output)
+
+sessionInfo()
 }
 
 # call main function

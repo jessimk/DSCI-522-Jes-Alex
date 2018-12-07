@@ -4,7 +4,10 @@
 #
 # This script produces histograms for each decision tree feature.
 #
-# Usage: Python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron_james"
+# Usage
+# Inputs: tidy csv path, output path with filename prefix, player name string
+# Outputs: png histograms for each feature in the data set
+# Example: Python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron_james"
 
 
 import argparse

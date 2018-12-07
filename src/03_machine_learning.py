@@ -7,8 +7,12 @@
 #   one for later creating model depth and accuracy plotting, and
 #   another for plotting feature importances.
 #
-# Usage: Python src/03_machine_learning.py data/tidy_data_lebron_james.csv
-##   data/accuracies_lebron_james.csv data/features_lebron_james.csv
+# Usage
+# Inputs: tidy csv path, output path for model test and train accuracies,
+##         output path for model feature importances
+# Outputs: csv of model accuracies, csv of model feature importances
+# Example: Python src/03_machine_learning.py data/tidy_data_lebron_james.csv
+##          data/accuracies_lebron_james.csv data/features_lebron_james.csv
 
 import argparse
 import pandas as pd
