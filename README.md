@@ -73,10 +73,13 @@ _✨Note: We plan to update our scripts so that they are flexible and robust eno
 - `03_machine_learning.py`, [performs machine learning](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/03_machine_learning.py)
 
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
-	
 
-</br>
+</br>	
+<p align="center">
+👑
+</p>
+
 <p align="center">   
-<a href="https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy.gif"><img width="200" height="200" src="https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy-downsized.gif"></a>
+<a href="https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy.gif"><img width="200" height="200" src="https://media.giphy.com/media/xT4uQfHn1CUGyYsiiY/giphy.gif"></a>
 
 </p>
