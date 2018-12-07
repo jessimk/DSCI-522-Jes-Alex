@@ -20,3 +20,7 @@
 
 	- Takes 2 input files (1 dataframe for train-test plot, 1 dataframe for feature importance)
 	- Delivers 2 output files stored in results/figs under accuracy and features (.png)
+
+### Dependency Graph
+
+<a href="https://github.com/jessimk/DSCI-522-Jes-Alex/blob/master/src/Makefile.png?raw=true"></a>
