@@ -34,13 +34,14 @@
 
 OR
 
-Use Make and run: 
+Use Make and the <a href="https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/Makefile">Makefile in our repo</a> to run: 
 
 `make all`
   
   
+</br>
 _✨Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. ✨_
-
+</br>
   
 <p align="center"> 🏀 🏀 🏀</p>
 
@@ -73,6 +74,11 @@ _✨Note: We plan to update our scripts so that they are flexible and robust eno
 - `03_machine_learning.py`, [performs machine learning](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/03_machine_learning.py)
 
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
+
+### [Code of Conduct](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/CONDUCT.md)
+
+### [Dockerfile](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/Dockerfile)
+### [Makefile](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/Makefile)
 
 </br>	
 <p align="center">
