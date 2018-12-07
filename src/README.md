@@ -23,4 +23,4 @@
 
 ### Dependency Graph
 
-<a href="https://github.com/jessimk/DSCI-522-Jes-Alex/blob/master/src/Makefile.png?raw=true"></a>
+<img src="https://github.com/jessimk/DSCI-522-Jes-Alex/blob/master/src/dependencies_graph.png?raw=true">
