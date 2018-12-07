@@ -23,6 +23,9 @@
 	- `scikit-learn v0.20.1`
 
 ### Usage
+
+**Without Docker**  
+
 1. Clone this repo.
 2. Run these commands:
 
@@ -38,9 +41,29 @@ Use Make and the <a href="https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/mast
 
 `make all`
   
-  
+**With Docker**
+
+1. Clone this repo. Navigate to the repo root and load a container with the following code in command line: 
+
+		docker run --rm -it -v PATH_ON_YOUR_COMPUTER:/home/DSCI-522-Jes-Alex jessimk/dsci-522-jes-alex //bin/bash 
+	
+2. Within the Docker container navigate to:   
+
+	`/home/DSCI-522-Jes-Alex`
+
+3. To run the analysis, type:  
+
+	`make all`
+	
+4. To clean the analysis, type:  
+
+	`make clean`
+	
+	
+
+
 </br>
-_✨Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. ✨_
+✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. Stay Tuned.✨
 </br>
   
 <p align="center"> 🏀 🏀 🏀</p>
