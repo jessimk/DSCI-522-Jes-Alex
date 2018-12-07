@@ -24,47 +24,34 @@
 
 ### Usage
 
-**Without Docker**  
+**Without Docker + Without Make**  
 
 1. Clone this repo.
 2. Run these commands:
 
-`Rscript src/01_loading_wrangling.R "lebron james"	data/shot_logs_raw.csv data/tidy_data_lebron_james.csv`
+	`Rscript src/01_loading_wrangling.R "lebron james"	data/shot_logs_raw.csv data/tidy_data_lebron_james.csv`
 `python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron james"`
 `python src/03_machine_learning.py data/tidy_data_lebron_james.csv data/accuracies_lebron_james.csv data/features_lebron_james.csv`
 `python src/04_analysis_plots_script.py data/accuracies_lebron_james.csv data/features_lebron_james.csv results/figs/train-test-acc_lebron_james.png results/figs/best_features_lebron_james.png`
 `Rscript -e "rmarkdown::render('docs/Report.Rmd')"`
 
-OR
+**With Make** 
 
-Use Make and the <a href="https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/Makefile">Makefile in our repo</a> to run: 
+1. With Make installed (install guides can be found <a href="https://ubc-mds.github.io/resources_pages/installation_instructions/">here</a>), clone this repo.
+2. Run: 
 
-`make all`
+	`make all`
   
 **With Docker**
 
-1. Clone this repo. Navigate to the repo root and load a container with the following code in command line: 
+1. Clone this repo and navigate to the repo's root. 
+2. Run the analysis within a docker container with the following code in command line: 
 
-		docker run --rm -it -v PATH_ON_YOUR_COMPUTER:/home/DSCI-522-Jes-Alex jessimk/dsci-522-jes-alex //bin/bash 
-	
-2. Within the Docker container navigate to:   
+		docker run --rm -it -v PATH_ON_YOUR_COMPUTER:/home/swish jessimk/dsci-522-jes-alex bash -c 'cd /home/swish; make'
 
-	`/home/DSCI-522-Jes-Alex`
+3. To clean the analysis, use the following code in command line:
 
-3. To run the analysis, type:  
-
-	`make all`
-	
-4. To clean the analysis, type:  
-
-	`make clean`
-	
-	
-
-
-</br>
-✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. Stay Tuned.✨
-</br>
+		docker run --rm -it -v PATH_ON_YOUR_COMPUTER:/home/swish jessimk/dsci-522-jes-alex bash -c 'cd /home/swish; make clean'
   
 <p align="center"> 🏀 🏀 🏀</p>
 
@@ -97,6 +84,10 @@ Use Make and the <a href="https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/mast
 - `03_machine_learning.py`, [performs machine learning](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/03_machine_learning.py)
 
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
+
+</br>
+✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. We're almost there-- stay Tuned.✨
+</br>
 
 ### [Code of Conduct](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/CONDUCT.md)
 
