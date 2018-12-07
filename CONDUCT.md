@@ -14,3 +14,5 @@ Behaviors of the sort can be reported with an issue or contacting one of the pro
 
 This marks the end of our code of conduct, happy coding, and we look forward to further contributions!
 
+Reference: <a href="https://github.com/juliasilge/tidytext/blob/master/CONDUCT.md">the tidytext Code of Conduct </a>
+
