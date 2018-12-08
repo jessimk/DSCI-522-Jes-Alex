@@ -6,9 +6,13 @@
 - Alex Hope [@ehhope](https://github.com/ehhope)  
 - Jes Simkin [@jessimk](https://github.com/jessimk) 
 
-### Goal
+### Objective
 
 - Create a decision tree model for Lebron James's shots. Use our model to find the three strongest predictors for determining whether Lebron makes or misses a shot.
+
+### Results
+
+- Using a decistion tree model our findings suggest (1) Shot Distance, (2) Shot Clock and (3) Touch Time were the strongest predictors in dictating whether Lebron James would make a shot or not.
 
 ### Dependencies
 
