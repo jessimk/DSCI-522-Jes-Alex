@@ -60,7 +60,7 @@ def main():
 
     train_test_df.to_csv(args.output_file1)
 
-    #finds feature importances and create a df of feature importances for plotting in script 4
+    #finds feature importances and create a plot-ready df of feature importances
     importances = player_shot_model.feature_importances_
     importances_df = pd.DataFrame(importances, columns=["importances"])
     feature_names_df= pd.DataFrame(list(X), columns=["feature names"])
@@ -69,6 +69,13 @@ def main():
     frames = [index_df, feature_names_df, importances_df]
     importances_df_csv = pd.concat(frames, axis=1)
 
+    importances_df_csv["feature names"] = importances_df_csv["feature names"].str.replace("_"," ")
+    importances_df_csv["feature names"] = importances_df_csv["feature names"].str.title()
+    importances_df_csv["feature names"] = importances_df_csv["feature names"].str.replace("Shot Dist","Shot Distance")
+    importances_df_csv["feature names"] = importances_df_csv["feature names"].str.replace("Pts Type","Points Type")
+    importances_df_csv["feature names"] = importances_df_csv["feature names"].str.replace("Close Def Dist","Closest Defender")
+
+    #export a csv for plotting in script 4
     importances_df_csv.to_csv(args.output_file2)
 
 main()
