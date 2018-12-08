@@ -34,10 +34,10 @@
 2. Run these commands:
 
 	`Rscript src/01_loading_wrangling.R "lebron james"	data/shot_logs_raw.csv data/tidy_data_lebron_james.csv`
-`python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron james"`
-`python src/03_machine_learning.py data/tidy_data_lebron_james.csv data/accuracies_lebron_james.csv data/features_lebron_james.csv`
-`python src/04_analysis_plots_script.py data/accuracies_lebron_james.csv data/features_lebron_james.csv results/figs/train-test-acc_lebron_james.png results/figs/best_features_lebron_james.png`
-`Rscript -e "rmarkdown::render('docs/Report.Rmd')"`
+	`python src/02_EDA.py data/tidy_data_lebron_james.csv results/figs/EDA "lebron james"`
+	`python src/03_machine_learning.py data/tidy_data_lebron_james.csv data/accuracies_lebron_james.csv data/features_lebron_james.csv`
+	`python src/04_analysis_plots_script.py data/accuracies_lebron_james.csv data/features_lebron_james.csv results/figs/train-test-acc_lebron_james.png results/figs/best_features_lebron_james.png`
+	`Rscript -e "rmarkdown::render('docs/Report.Rmd')"`
 
 **With Make** 
 
