@@ -24,7 +24,7 @@
 
 ### Usage
 
-**Without Docker + Without Make**  
+**Without Docker +git a Without Make**  
 
 1. Clone this repo.
 2. Run these commands:
@@ -86,7 +86,7 @@
 - `04_analysis_plots_script.py`, [creates plots from machine learning findings](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/src/04_analysis_plots_script.py)
 
 </br>
-✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. We're almost there-- stay Tuned.✨
+✨Future Dev Note: We plan to update our scripts so that they are flexible and robust enough to be able to run our analysis for any player in the data set. Stay tuned.✨
 </br>
 
 ### [Code of Conduct](https://github.com/UBC-MDS/DSCI-522-Jes-Alex/blob/master/CONDUCT.md)
