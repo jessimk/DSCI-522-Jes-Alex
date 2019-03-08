@@ -1,5 +1,6 @@
 # A Classification Decision Tree for Lebron James's Shots
 
+*This repo started off as a project for UBC DSCI 522, a course focusing on collaborative data science workflows and best practices.*
 
 ### Authors
 
