@@ -2,6 +2,8 @@
 
 *This repo started off as a project for UBC DSCI 522-- a course focusing on collaborative data science workflows and best practices.*
 
+*Also, the original analysis was completed while we were beginning to learn ML basics. [Here's my latest take on this project where I use Random Forests, XGBoost, Logistic Regression and more](https://github.com/jessimk/LBJ_Make_or_Miss/blob/master/docs/Analysis%20Revisited.ipynb)*
+
 ### Authors
 
 - Alex Hope [@ehhope](https://github.com/ehhope)  
